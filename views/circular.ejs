@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/circulars.css">
+</head>
+<body>
+  <% include nav.ejs %>
+    <div class="circulars_content tab" id="cc">
+        <div class="circular_container">
+          <div class="cselect">
+  
+            <label for="cbranch">Select Department:</label>
+            <select id="cbranch">
+              <option value="class1" selected>Select</option>
+              <option value="class1">All Departments</option>
+              <option value="class1">Information Technology</option>
+              <option value="class2">CSE</option>
+              <option value="class3">ECE</option>
+            <option value="class4">EEE</option>
+            <option value="class5">MECHANICAL</option>
+            <option value="class6">CIVIL</option>
+            <option value="class7">CHEMICAL</option>
+          </div>
+  
+          <div class="ctextarea">
+            <textarea name="circular" id="ctext" cols="111" rows="50"
+              placeholder="CIRCULAR"></textarea>
+          </div>
+  
+          <div class="cbutton" onclick=alert()>
+            <button >Send</button>
+          </div>
+  
+        </div>
+      </div>
+    
+</body>
+</html>
